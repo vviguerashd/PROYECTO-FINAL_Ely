@@ -9,21 +9,16 @@ main{
 
 
 header{
-
-    grid-row: 1/2;
     display: flex;
     justify-content: space-between;
 }
 
 
 .miniiconospadre{
-    
     display: flex;
     justify-content: flex-end;
     margin: 20px;
     order:2;
-    
-
 }
 
 
@@ -52,19 +47,14 @@ form{
     display: flex;
     justify-content: center;
 
+
 }
-
 input{
-
-    width: 60%;
     height: 45px;
     margin-bottom: 20px;
     font-size: x-large;
+    width: 580%;
 }
-
-
-
-
 .linkspadre{
 
     display: flex;
@@ -82,11 +72,6 @@ input{
     padding: 0px 5px 15px 10px;
     margin-left: 60px;
     background-color: white;
-    
-    
-    
-    
-
 }
 .botonespadre{
     
@@ -94,38 +79,38 @@ input{
     background-color: white;
     margin-left: 50px;
     margin-right: 50px;
-  
 }
 
 button{
 
-    font-size: x-large;
+    font-size: large;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
-    
-    
-
 }
-
+h1{
+    background-color: rgba(219, 224, 255, 0.482);
+}
 div{
     margin-left: 50px;
     margin-right: 50px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     grid-row: 5/6;
     display: flex;
-    flex-wrap: wrap;
-
-    
-    
+    flex-wrap: wrap; 
 }
+.imagenes{
+    border: solid 1px gray ;
+    border-radius: 20px;
+    overflow: hidden;
 
+}
 #carro{
 
     width:460px;
     height: 700px;
-    background-image: url(https://th.bing.com/th/id/R.d0662db09b97588061e1923c04593068?rik=VmGsPN7iE6dvDg&riu=http%3a%2f%2f2.bp.blogspot.com%2f--PqkSdd6oFg%2fTsPlWsZQJxI%2fAAAAAAAAAAc%2fY7IdXUNoHuw%2fs1600%2fcollage17.jpg&ehk=%2bhFFlPISJl2ElbWzovFcspk5cg7k03lfOBiFZWCCBvk%3d&risl=&pid=ImgRaw&r=0);
+    background-image: url(https://cdn.buttercms.com/qnaDZMMdTO6iCQmKILc2);
     background-size:contain;
     margin-right: 20px;
     margin-left: 20px;
@@ -181,13 +166,12 @@ div{
     
    
 }
-
 #arte{
 
     width:460px;
     height: 700px;
-    background-image: url(https://th.bing.com/th/id/R.c313faaf731610ee639bc3b1a71f31d8?rik=5KEYy3Ff6mpuDA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbYcnJLT.jpg&ehk=2ZDSZWCr4Zp04zeWH6wFi4vLzxD%2f3K5%2fkXZ2hBq2Jlo%3d&risl=&pid=ImgRaw&r=0);
-    background-size:920px 700px;
+    background-image: url(https://kuadros.com/cdn/shop/articles/0b045983e9732fc3a6a4c1a08d3a78f8.jpg?v=1666446198);
+    /* background-size:920px 700px; */
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -204,10 +188,9 @@ div{
     margin-left: 20px;
     margin-bottom: 20px;
     font-size: x-large;
-    
+    display: flexp;
 
 }
-
 .sugerencias{
 
     width:250px;
@@ -218,7 +201,6 @@ div{
     margin-left: 120px;
 
 }
-
 .sugerencias img{
 
     padding:20px;
